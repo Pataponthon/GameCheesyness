@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cheesyness
 {
-    class Character
+    public class Character
     {
         public string name;
         protected int hp;
@@ -16,7 +16,7 @@ namespace Cheesyness
         protected int cc;
         string[] tElement = new string[] { "Neutral", "Fire", "Water", "Wind", "Cheese" };
         
-        public Character(string Name, int HP, int STR, int CC, string Element)
+        public Character(string Name, int HP, int STR, int CC, string[] Element)
         {
             name = Name;
             hp = HP;

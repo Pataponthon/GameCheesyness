@@ -1,2 +1,0 @@
-C:\Ingesup 2017-2018\Langage Objet - C#\Cheesyness\Cheesyness\obj\Debug\Cheesyness.csprojAssemblyReference.cache
-C:\Ingesup 2017-2018\Langage Objet - C#\Cheesyness\Cheesyness\obj\Debug\Cheesyness.csproj.CoreCompileInputs.cache

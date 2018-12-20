@@ -6,24 +6,25 @@ using System.Threading.Tasks;
 
 namespace Cheesyness
 {
-    class Cell
+    public class Cell
     {
         public int X;
         public int Y;
-        public Monster m;
-        public Equipment Item;
-        public HeroRPG Hero;
-        public Advancement Advance;
+        public Character.Monster m;
+        //public Equipment Item;
+        public Character.HeroRPG Hero;
 
         public Cell(int x, int y)
         {
             X = x;
             Y = y;
             Hero = null;
-            Advance = null;
-           /*Item = new Potion("Soin", "Potion de soin", 1, 2, Potion.PotionType.Heal);*/
-           
+            /*Item = new Potion("Soin", "Potion de soin", 1, 2, Potion.PotionType.Heal);*/
+            //TODO : Chances de spawn un Monstre et une popoSoin.Niv1. 40% et 20% respectivement
         }
-
+        /*
+        public Cell[,] StartingPosition;
+        public Cell[,] AdvancementCell;
+         */
     }
 }

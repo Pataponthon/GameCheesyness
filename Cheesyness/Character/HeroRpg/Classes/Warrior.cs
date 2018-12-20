@@ -18,7 +18,7 @@ namespace Cheesyness.Character.HeroRpg.Classes
     {
         return (tSkills[0].DMG * 3);
     }
-    public void Solidification;
-    public void Berserk();
+    /*public void Solidification;
+    public void Berserk();*/
 
 }

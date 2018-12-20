@@ -4,10 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Cheesyness.Character.HeroRpg
+namespace Cheesyness.Characters
 {
-    class LevelsTable
+    class Skills
     {
-        //TODO : Créer une table de levels
     }
 }

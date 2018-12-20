@@ -8,16 +8,6 @@ namespace Cheesyness.Combat
 {
     class Battle
     {
-        do
-        {
-         i = Console.ReadLine
-        }
-        
-        switch
-        {
-            case 
-        }
-        Damage();
         
         Use();
         if (ExpGained >= ExpThreshold)

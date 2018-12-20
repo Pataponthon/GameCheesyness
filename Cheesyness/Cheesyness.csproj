@@ -49,16 +49,17 @@
     <Compile Include="Character\HeroRpg\Inventaire.cs" />
     <Compile Include="Character\HeroRpg\LevelsTable.cs" />
     <Compile Include="Character\Monster\Monster.cs" />
+    <Compile Include="Character\Skills.cs" />
     <Compile Include="HistoireHistoire.cs" />
     <Compile Include="Movement.cs" />
-    <Compile Include="Equipment\Potion\HealingPotion.cs" />
-    <Compile Include="Equipment\Potion\ReinforcementPotion.cs" />
-    <Compile Include="Equipment\Potion\StrengtheningPotion.cs" />
-    <Compile Include="Equipment\Stuff.cs" />
+    <Compile Include="Equipments\Potion\HealingPotion.cs" />
+    <Compile Include="Equipments\Potion\ReinforcementPotion.cs" />
+    <Compile Include="Equipments\Potion\StrengtheningPotion.cs" />
+    <Compile Include="Equipments\Stuff.cs" />
     <Compile Include="Map\Cell.cs" />
     <Compile Include="Combat\Battle.cs" />
-    <Compile Include="Equipment\Equipment.cs" />
-    <Compile Include="Equipment\Potion\Potion.cs" />
+    <Compile Include="Equipments\Equipment.cs" />
+    <Compile Include="Equipments\Potion\Potion.cs" />
     <Compile Include="Game.cs" />
     <Compile Include="Map\Map.cs" />
     <Compile Include="Map\MapGeneration.cs" />
@@ -70,7 +71,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Equipment\Stuff\" />
+    <Folder Include="Equipments\Stuff\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

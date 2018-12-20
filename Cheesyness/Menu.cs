@@ -14,22 +14,22 @@ namespace Cheesyness
             int choix = AskChoice(0, 3);
             switch (choix)
             {
-                case 0;
+                case 0:
                     {
-                        StartGame();
+                        Game();
                         break;
         /*            }
-                case 1;
+                case 1:
                     {
                         Load();
                         break;
                     }
-                case 2;
+                case 2:
                     {
                         Apropos();
                         break;
                     }
-                case 3;
+                case 3:
                     {
                         Quit();
                         break;
@@ -37,14 +37,13 @@ namespace Cheesyness
             }
         }
 
-        public void PrintMenu()
+        void PrintMenu()
         {
-                //TODO Faire l'affihage du Menu
                 Console.WriteLine("Moisissez votre destinée");
-                Console.WriteLine("0 - Start Game");
+                Console.WriteLine("0 - Start Game");       
         }
 
-        public int AskChoice(int min, int max)
+        int AskChoice(int min, int max)
         {
             int result = int.Parse(Console.ReadLine());
             while (result > max || result < min)
@@ -54,10 +53,7 @@ namespace Cheesyness
             return result;
         }
 
-        public void Game()
-        {
-
-        }
+  /*
 
         public void Load()
         {
@@ -73,5 +69,5 @@ namespace Cheesyness
         {
 
         }
-    }
+    }*/
 }

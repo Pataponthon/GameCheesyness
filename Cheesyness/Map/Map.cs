@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Cheesyness
 {
-    class Map
+    public class Map
     {
         /* exemple du cours
         public int NbCases;
@@ -34,12 +34,15 @@ namespace Cheesyness
 
         public Map()
         {
+            List<int[]> InaccessibleCells = new List<int[]>();
+            int[] StartingPosition = new int[2];
             Plateau = new Cell[5, 5];
             for (int i=0; i<5; i++)
             {
                 for (int j=0;j<5, j++)
                 {
-                    Plateau[i, j] = new Cell();
+                    if (Plateau[i, j] == Cheesyness.Map.MapGeneration.u) { Plateau[i, j] = new AdvancementCell(i, j); }
+                    else Plateau[i, j] = new Cell(i, j); }
                 }
             }
         }

@@ -6,37 +6,36 @@ using System.Threading.Tasks;
 
 namespace Cheesyness
 {
-    class HeroRpg : Character
+    public class HeroRpg : Character
     {
-
-        public HeroRpg(string Name, int HP, int STR, int CC, string Element) : base()
+        int[] PlayerPosition = new int[2];
+        
+        HeroRpg(string Name, int HP, int STR, int CC, string Element, int[] PP, int CurrentLvl) : base(Name, HP, STR, CC, Element)
         {
-
+            Element = "Neutral";
+            PlayerPosition = PP;
         }
 
-    PDMGReceived
 
 
-        public int[] tBuffs = new int[] { 0, 0, 0 };
-
+        public int[] tBuffs = new int[] { 0, 0 };
+        //tBuffs indique en premier élément du couple les modifications d'attaque, le deuxième élément ceux de défense.
 
         int
 
-
-
-
-        LevelUp()
+        public void LevelUp()
         {
             CurrentLvl++;
             STR = STR + 2;
             DEF = DEF + 2;
             HP = HP + 10;
+            if (CurrentLvl % 2 == 0) Character.CC++;
         }
         
-        if ClassChoice != {Warrior, Mage, Swordmage }
-        {
-
-        }
+        //if ClassChoice != {Warrior, Mage, Swordmage }
+        
+        
+        
         //TODO: EXPGained
         //TODO: CurrentLvl
         //TODO: PlayerPosition

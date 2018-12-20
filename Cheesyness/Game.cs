@@ -9,14 +9,13 @@ namespace Cheesyness
     class Game
     {
         public HeroRpg Hero;
-        public Map map;
-
-
-        public void Movement()
-        {
-            PrintChoix
-        }
-
         HistoireHistoire();
+
+        // public void Movement()
+        //{
+        //    PrintChoix
+        //}
+
+
     }
 }
