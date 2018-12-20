@@ -8,18 +8,12 @@ namespace Cheesyness.Map
 {
     public class MapGeneration : Map
     {
-        // int[] u = new int[2];
         int[] StartingPosition = new int[2];
         int[] AdvancementCell = new int[2];
         int[] InaccessibleCell = new int[2];
-        //Map Map1;
+
         public override  Map Map1()
-        {
-            /* utter garbage
-            int[,] StartingCell = new int[,];
-            int[,] InaccessibleCell = new int[][,];
-            int[,] AdvancementCell = new int[,];
-            */
+        { 
 
             StartingPosition = { 0, 1};
             AdvancementCell = { 5, 3};

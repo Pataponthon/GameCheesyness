@@ -15,7 +15,7 @@ namespace Cheesyness.Equipment
         {
             Type = t;
         }
-        //TODO : Faire la description des items (brèveC:\Ingesup 2017-2018\Langage Objet - C#\Cheesyness\Cheesyness\Equipment\Potion\Potion.cs)
+        //TODO : Faire la description des items (brève)
         public override void PickUp()
         {
             base.PickUp();

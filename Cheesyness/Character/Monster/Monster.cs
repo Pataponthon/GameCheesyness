@@ -8,7 +8,7 @@ namespace Cheesyness.Character
 {
     class Monster : Character
     {
-        public Monster(string Name, int HP, int STR, int CC, string Element) : base()
+        public Monster(string Name, int HP, int STR, int CC, string Element, int EXP) : base(Name, HP, STR, CC, Element)
 
     }
 }

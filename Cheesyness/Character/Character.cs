@@ -12,7 +12,7 @@ namespace Cheesyness
         protected int hp;
         protected int str;
         
-        //CC = Counter-Counter. 
+        //CC = Counter-Counter, le nombre limite de contres consécutifs possibles.
         protected int cc;
         string[] tElement = new string[] { "Neutral", "Fire", "Water", "Wind", "Cheese" };
         

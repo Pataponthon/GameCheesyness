@@ -38,11 +38,11 @@ namespace Cheesyness
         }
         
     
-        //TODO: Condition Si vous vous déplacez dans une cellule invisible
+        //TODO: Condition Si vous vous déplacez vers une cellule inaccessible
         
-        Console.WriteLine("Vous vous heurtez comme un tataki contre un mur..");
+        //Console.WriteLine("Vous vous heurtez comme un tataki contre un mur..");
         //TODO: Condition Si vous vous déplacez hors de la zone
-        Console.WriteLine("Une force invisible vous repousse...");
+        //Console.WriteLine("Une force invisible vous repousse...");
 
     }
 }

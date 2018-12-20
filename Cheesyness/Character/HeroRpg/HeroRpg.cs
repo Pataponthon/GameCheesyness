@@ -21,8 +21,6 @@ namespace Cheesyness
         public int[] tBuffs = new int[] { 0, 0 };
         //tBuffs indique en premier élément du couple les modifications d'attaque, le deuxième élément ceux de défense.
 
-        int
-
         public void LevelUp()
         {
             CurrentLvl++;

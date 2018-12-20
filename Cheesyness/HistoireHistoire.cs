@@ -30,6 +30,7 @@ namespace Cheesyness
             Console.ForegroundColor = ConsoleColor.Red;
             Console.WriteLine("Press Aniki to continue.");
             Console.ReadLine();
+            Console.ResetColor();
             Cheesyness.Map.MapGeneration.Map2();
             Movement();
         }
